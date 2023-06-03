@@ -1,0 +1,1 @@
+Este repositório é a alocação do conteúdo aprendido através do curso de JavaScript do Gustavo Guanabara do canal Curso em vídeo.
