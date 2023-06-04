@@ -1,0 +1,40 @@
+body {
+    background: #6085ec;
+    font: normal 15pt arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: rgb(230, 225, 225);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#res {
+    display: flex;
+    flex-direction: column;
+}
+
+#res img {
+    margin-top: 15px;
+}
+
+#time {
+    text-align: center;
+}
