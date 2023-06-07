@@ -7,17 +7,23 @@
     <title>Horário</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        <h1>Hora do dia</h1>
+        <h1>Tabuada</h1>
     </header>
 
     <section>
         <div id="time">
-            
+            <p>
+                Digite um número:
+                <input type="number" name="" id="num">
+                <input type="button" value="Gerar tabuada" onclick="gerar()">
+            </p>
         </div>
-        <div id="img">
-            img
+        <div id="res">
+            <select name="" id="sel" size="10">
+                <option value="">Digite um número acima</option>
+            </select>
         </div>
     </section>
 
